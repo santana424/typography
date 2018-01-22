@@ -1,0 +1,64 @@
+/* Embedded Fonts */
+
+@font-face {
+	font-family: text;
+	src: url( ../../fonts/futura.ttf);
+}
+
+
+
+
+/* Container Items */
+
+html,body {
+	width: 100%;
+	height: 100%;
+
+}
+
+#cover {
+	width: 100%;
+	height: 100%;
+	background: url("../images/cover.jpg") no-repeat center fixed;
+	/* this can also work to make the background not repeat: background-repeat: no-repeat; */
+	-webkit-background-size: cover;
+}
+
+#container {
+
+}
+
+
+/* Paragraph Styles */
+
+.title {
+font-family: futura;
+font-size: 100px;
+color: #ffffff;
+
+
+
+}
+
+.author {
+
+}
+
+
+.text {
+width: ; /*paragraph width */
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 19px ;
+color: ;
+line-height:22px ;
+letter-spacing: 1px;
+word-spacing: ;
+text-align: left;
+text-indent: ;
+
+}
+
+.italic {
+	font-style: italic;
+
+}
